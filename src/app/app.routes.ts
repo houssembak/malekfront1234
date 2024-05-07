@@ -4,6 +4,14 @@ import { Routes } from "@angular/router";
 import { CalendarComponent } from "./pages/calendar/calendar.component";
 import {LoginComponent} from "./pages/login/login.component";
 import  {RegisterComponent} from "./pages/register/register.component";
+import { BaccaleaureatComponent } from './pages/baccaleaureat/baccaleaureat.component';
+import { LicenceComponent } from './pages/licence/licence.component';
+import { MasterComponent } from "./pages/master/master.component";
+import { IngeurieComponent } from "./pages/ingeurie/ingeurie.component";
+import { DoctoratComponent } from "./pages/doctorat/doctorat.component";
+ import { ContactusComponent} from "./pages/contactus/contactus.component"
+
+
 export const routes: Routes = [
   {
     path: "",
@@ -33,6 +41,32 @@ export const routes: Routes = [
     path: "register",
     component: RegisterComponent,
   },
+  {
+    path: "bac",
+    component: BaccaleaureatComponent,
+  },
+  {
+    path: "licence",
+    component: LicenceComponent,
+  },
+  {
+    path: "master",
+    component: MasterComponent,
+  },
+  {
+    path: "ingeneurie",
+    component: IngeurieComponent,
+  },
+  {
+    path: "doctorat",
+    component: DoctoratComponent,
+  },
+  {
+    path: "contactus",
+    component: ContactusComponent,
+  },
+  
+
  
 
   // {
